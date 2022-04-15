@@ -178,12 +178,12 @@ body {
         text-align: center;
         font-size: 25px;
         padding: 0 10px 0 10px;
-        font-family: var(--text);
+        font-family: var(--footer-text);
     }
 
     .api, .responsive {
         color: black;
-        font-family: var(--text);
+        font-family: var(--footer-text);
         font-weight: normal;
     }
 

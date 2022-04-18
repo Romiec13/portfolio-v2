@@ -44,12 +44,11 @@ body {
     background-color: white;
 }
 
-.background-animate {
+.background-header{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 180px;
+    background-size: 100%;
 }
 
   

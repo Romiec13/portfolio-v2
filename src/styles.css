@@ -45,13 +45,34 @@ body {
 }
 
 .header-background{
-   background-image: url('https://drive.google.com/file/d/1HLBYflYV9c4VuIyhKpAxYc572RAOZvYs/view?usp=sharing');
+   background-image: url('../images/header-background.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-size: cover;
-    color: var(--background);
+   background-size: 95%;
+   color: var(--background);
+   height: 750px;
+   padding-left: 100px;  
 }
 
+.hompage-header {
+    color:rgb(38, 38, 38);
+    font-size: 75px;
+    padding-top: 200px;
+    margin-bottom: 0;
+}
+
+.homepage-subheader {
+    color:rgb(38, 38, 38);
+    font-size: 50px;
+    font-family: var(--footer-text);
+    margin-top: 0;
+}
+
+.image-header {
+    height: 150px;
+    width: 150px;
+    opacity: 80%;
+}
   
     hr{
         color: var(--headers);
@@ -133,6 +154,11 @@ body {
     .card-img {
        height: 320px;
        width: 413px;
+       filter: grayscale(100%);
+    }
+
+    .card-img:hover {
+        filter: grayscale(0%);
     }
 
     

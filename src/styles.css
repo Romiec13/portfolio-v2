@@ -207,7 +207,7 @@ body {
         font-family: var(--footer-text);
     }
 
-    .api, .responsive {
+    .api, .responsive, .wireframing {
         color: black;
         font-family: var(--footer-text);
         font-weight: normal;

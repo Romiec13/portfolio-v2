@@ -193,6 +193,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        max-height: 750px;
     }
 
     .introduction {

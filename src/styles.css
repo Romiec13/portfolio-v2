@@ -136,6 +136,29 @@ body {
         color: var(--headers);
     }
     
+    .webpage-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        font-family: var(--footer-text);
+        font-weight: bold;
+    }
+
+    .webpage-footer span {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .webpage-footer a{
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    .webpage-footer a:hover{
+        color: var(--headers);
+    }
+
+
     h1 {
         color: var(--headers);
         font-family: var(--font-family);

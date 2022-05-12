@@ -68,6 +68,9 @@ body {
         padding-right: 50px!important;
         background-size: cover;
     }
+    .fluffy-icon {
+        height: 30px;
+    }
 }
   
     hr{

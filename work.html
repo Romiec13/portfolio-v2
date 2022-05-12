@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-    crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Saira:wght@300&family=VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/styles.css"/>
-    
-    <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-    crossorigin="anonymous">
-    </script>
-    <script 
-    src="https://kit.fontawesome.com/7c2c9eccf3.js" 
-    crossorigin="anonymous">
-    </script>
+     <!--bootstrap-->
+     <link 
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+     crossorigin="anonymous"
+     />
+     <script 
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous">
+     </script>
+     <!--google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Saira:wght@300&family=VT323&display=swap" rel="stylesheet">
+     <!--font awesome(icons)-->
+     <script 
+     src="https://kit.fontawesome.com/7c2c9eccf3.js" 
+     crossorigin="anonymous">
+     </script>
+     <!--stylesheet-->
+     <link rel="stylesheet" href="src/styles.css"/>
 
     <title>My Work</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+ <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="images/navbar-icon.png" class="fluffy-icon"> Romie Castilleja</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +44,8 @@
                         <a class="nav-link" href="index.html"><i class="fas fa-house-user icon"></i></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="work.html">Work</a>
-                  </li>
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
@@ -54,82 +57,180 @@
         </div>
     </nav>
 
-    <h1 class="text-center mt-2">My Recent Work</h1>
+    <!--work examples-->
+    <div class="work-page mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="row">
+              <div class="col-md-6 mt-5">
+                <img src="images/work/weather-app.JPG" alt="Picture of my weather app"
+                class="work-image img-fluid rounded-3 shadow" />
+              </div>
+              <div class="col-md-6">
+                <h3 class="app mb-3 m-5 text-center">Weather App</h3>
+                <p>
+                  One of my first real projects ever using JavaScript. I'm really proud of this working real-time weather app. I put so much hard work into this one, and I love coming back to it to implement better techniques the more I learn to make it look and run smoother. I even recreated this weather app with React, which was tough but fun.
+                </br>
+            </br>
+            <strong>Tools Used</strong>: Invision, HTML, CSS, Bootstrap, JavaScript, API
+          </p>
+          <div class="mb-5 mt-3">
+            <button>
+              <span><a href="https://thirsty-golick-06190f.netlify.app/">Check It Out</a></span>
+            </button> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <img src="images/work/dictionary-app.PNG" alt="Picture of my dictionary app"
+          class="work-image img-fluid rounded-3 shadow" />
+        </div>
+        <div class="col-md-6">
+          <h3 class="app mb-3 m-5 text-center">Dictionary App</h3>
+            <p>
+              This dictionary app was one of my favorite projects I've built so far. I found it so cool being able to intergrate all these little parts together to create a whole product. My favorite part was adding the example pictures at the bottom because I feel like it just gives the overall app a fresh feel. Truly one of my favorites.
+            </br>
+          </br>
+          <strong>Tools Used</strong>: Invision, HTML, CSS, Bootstrap, JavaScript, React, API
+        </p>
+  <div class="mb-5 mt-3">
+    <button>
+      <span><a href="https://dictionaryapp-react.netlify.app/">Check It Out</a></span>
+    </button> 
+  </div>
+</div>
+</div>
 
-    <div class="container mt-2 mb-3">
-        <div class="row">
-            <div class="col-sm-4">
-        <div class="card bg-dark text-white">
-            <img src="images/work/weather-app.JPG" class="card-img work-image" alt="image of my weather app">
-           
-            <a href="https://thirsty-golick-06190f.netlify.app/" class="text-center work-link">Weather app</a>
+  <div class="row">
+    <div class="col-md-6 mt-5">
+      <img src="images/work/currency-converter.JPG" alt="Picture of the currency converter app I created"
+      class="work-image img-fluid rounded-3 shadow" />
+    </div>
+    <div class="col-md-6">
+      <h3 class="app mb-3 m-5 text-center">Currency Converter</h3>
+          <p>
+            I came across this idea while looking for different apps to build to increase my JavaScript skills. When I saw it I knew I just had to because when I went to Europe with my mother I remember us both constantly wishing we had one as we weren't the best at understanding the currency at the time. So once I was done building it, I had a quite a bit of joy showing my mom and sharing a laugh.
+          </br>
+        </br>
+        <strong>Tools Used</strong>: HTML, CSS, Bootstrap, JavaScript
+      </p>
+  <div class="mb-5 mt-3">
+    <button>
+      <span><a href="https://currencies-converterapp.netlify.app/">Check It Out</a></span>
+    </button> 
+  </div>
+  </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-6 mt-2">
+      <img src="images/work/rock,paper,scissors.JPG" alt="Picture of the game I created" class="work-image img-fluid rounded-3 shadow" />
+    </div>
+    <div class="col-md-6">
+      <h3 class="app mb-3 text-center">Rock, Paper, Scissors</h3>
+          <p>
+            This project was something I created to help me better improve my skills in JavaScript. I wanted to practice the fundementals of JavaScript and this was just a creative way to do just that. It was a fun little side project that I enjoyed creating, even more so because I love to play rock, paper, scissors. This was practice well needed and well enjoyed.
+          </br>
+        </br>
+        <strong>Tools Used:</strong> HTML, CSS, JavaScript
+      </p>
+  <div>
+    <button>
+      <span><a href="https://wonderful-goldstine-5962b9.netlify.app/">Check It out</a></span>
+    </button> 
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6 mt-5">
+          <img src="images/work/portfolio-V1.JPG" alt="Picture of the first online portfolio I created"
+          class="work-image img-fluid rounded-3 shadow" />
+        </div>
+        <div class="col-md-6">
+          <h3 class="app mb-3 m-5 text-center">Online Portfolio V1</h3>
+              <p>
+                For my online class, one of our final projects was to build an online portfolio. This was my first design before going back and creating this one you're currently looking at. It's an earlier model but I really enjoyed the creative freedom of this project and had a grand time picking out the colors and design layout. Overall it was really great practice and I learned a lot from this build on what to add/take-away when creating this new porfolio.
+              </br>
+            </br>
+            <strong>Tools Used</strong>: HTML, CSS, Bootstrap
+          </p>
+        <div class="mb-5 mt-3">
+        <button>
+          <span><a href="https://laughing-fermi-49229d.netlify.app/">Check It Out</a></span>
+        </button> 
+      </div>
+    </div>
+  </div>
+  
+    <div class="col-md-6 mt-5">
+      <img src="images/work/Skyrim.JPG" alt="Picture of my Skyrim Website" class="work-image img-fluid rounded-3 shadow" />
+    </div>
+  <div class="col-md-6">
+    <h3 class="app m-5 mb-3 text-center">Skyrim Website</h3>
+          <p>
+            My first real attempt at creating my own website from scratch. I decided to do it over something that brings me joy, even if a bit on the nerdy side. But that's what adds to the charm of this website and what makes me really proud of the work I put into the designing and creating it. What I wanted to really focus on was creating and connecting multiple webpages, as well as practicing different web design looks I found online and from Bootstrap.
+          </br>
+        </br>
+        <strong>Tools Used</strong>: HTML, CSS, Bootstrap
+        </p>
+  <div class="mt-3">
+    <button>
+      <span><a href="https://condescending-chandrasekhar-ca500b.netlify.app/">Check It Out</a></span>
+    </button>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mt-5">
+      <img src="images/work/webpage-practice.PNG" alt="Picture of a landing page I created for practice"
+      class="work-image img-fluid rounded-3 shadow" />
+    </div>
+    <div class="col-md-6">
+      <h3 class="app mb-3 m-5 text-center">Landing Page Practice</h3>
+          <p>
+            This webpage was part of one of my assignments for my online class. We were to practice getting used to web design and page layouts. It was when I first getting used to implementing Bootstrap when styling a page. It may be an older project, but I really enjoy the design and color palette in this exercise. 
+          </br>
+        </br>
+        <strong>Tools Used</strong>: Invision, HTML, CSS, Bootstrap
+            </p>
+            <div class="mb-5 mt-3">
+              <button>
+                <span><a href="https://festive-pike-893819.netlify.app/">Check It Out</a></span>
+              </button> 
             </div>
           </div>
-
-          <div class="col-sm-4">
-            <div class="card bg-dark text-white shadow">
-                <img src="images/work/Skyrim.JPG" class="card-img work-image" alt="image of the Skryim website I created">
-                
-                <a href="https://condescending-chandrasekhar-ca500b.netlify.app/" class="text-center work-link">Skryim website</a>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card bg-dark text-white shadow-lg">
-                
-                  <img src="images/work/portfolio-V1.JPG" class="card-img work-image " alt="First version of my online portfolio I created">
-                  
-                  <a href="https://laughing-fermi-49229d.netlify.app/" class="text-center work-link">Portfolio Version 1</a>
-              
-                </div>
-                  </div>
-    </div>
-
-    <div class="row mt-2">
-        <div class="col-sm-4">
-    <div class="card bg-dark text-white">
-        <img src="images/work/rock,paper,scissors.JPG" class="card-img work-image shadow" alt="image of the rock, paper, scissors game I created with JavaScript">
-       
-        <a href="https://wonderful-goldstine-5962b9.netlify.app/" class="text-center work-link">Rock, Paper, Scissors Game</a>  
-      </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="card bg-dark text-white">
-            <img src="images/work/currency-converter.JPG" class="card-img work-image" alt="image of the currency converter app I created">
-            
-            <a href="https://currencies-converterapp.netlify.app/" class="text-center work-link">Currency Converter App</a>  
-          </div>
-          </div>
-          
-         
         </div>
-  </div>
-    
-    
-    <footer class="mt-5">
-    </br>
-      <h3><img src="images/footer-icon.png" class="fluffy-icon" alt="footer icon for collaboration">LET'S TALK</h3>
-      <p>
+</div>      
+</div>
+</div>
+
+<!--footer-->
+<footer class="mt-5">
+</br>
+<h3><img src="images/footer-icon.png" class="fluffy-icon" alt="footer icon for collaboration"> LET'S TALK</h3>
+        <p>
           Interested in working together? Come say hi, I would love to hear from you.
-      </p>
-      </br>
-      
-      <span class="footer-icons">
-          <a href="https://github.com/Romiec13"><i class="fab fa-github-square me-5"></i>
-          </a>
-          
-          <a href="https://www.linkedin.com/in/romie-castilleja/">
-          <i class="fab fa-linkedin me-5"></i>
-          </a>
-      
-        <a href="https://www.shecodes.io/hall-of-fame?q=Romie+Castilleja&commit=Search">  <i class="fas fa-laptop-code"></i>
-          </a>
-      </span>
-          </footer>
-          <small class="webpage-footer">
-            This website was created by Romie Castilleja and is <span><a href="https://github.com/Romiec13/portfolio-v2">open-sourced</a></span> on Github.
-          </small>
+        </p>
+        </br>
+        <span class="footer-icons">
+            <a href="https://github.com/Romiec13"><i class="fab fa-github-square me-5"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/romie-castilleja/">
+            <i class="fab fa-linkedin me-5"></i>
+            </a>
+
+          <a href="https://www.shecodes.io/hall-of-fame?q=Romie+Castilleja&commit=Search">  <i class="fas fa-laptop-code"></i>
+            </a>
+        </span>
+            </footer>
+            <small class="webpage-footer">
+              This website was created by Romie Castilleja and is <span><a href="https://github.com/Romiec13/portfolio-v2">open-sourced</a></span> on Github.
+            </small>
 
 </body>
 </html>

@@ -44,10 +44,6 @@ body {
     opacity: 80%;
 }
 
-.navbar-light .navbar-toggle-icon {
-    background-image: url('images/navbar-toggle.gif')!important;
-}
-
 /*icons*/
 .fluffy-icon {
     height: 55px;

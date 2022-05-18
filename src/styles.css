@@ -175,7 +175,7 @@ body {
     
     .work-image:hover {
         filter:blur(0px);
-        opacity: 80%;
+        opacity: 90%;
         transition: all 150ms ease-in-out;
      }
      
@@ -197,7 +197,7 @@ body {
         }
         
         @media (max-width: 720px) {
-            .work-img {
+            .work-image {
                 filter: none;
             }
         }
